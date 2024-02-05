@@ -12,7 +12,7 @@ from openai import OpenAI
 load_dotenv()
 
 OpenAI.api_key = os.getenv("OPENAI_API_KEY")
-if not openai.api_key:     
+if not OpenAI.api_key:     
     raise ValueError("The OpenAI API key must be set in the OPENAI_API_KEY environment variable.")
 client = OpenAI()
 
