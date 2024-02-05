@@ -5,12 +5,13 @@ import time
 import tempfile
 import base64
 import os
-from dotenv import load_dotenv
+#from dotenv import load_dotenv
 from openai import OpenAI
 
 # Load environment variables
-load_dotenv()
-OpenAI.api_key = os.getenv("OPENAI_API_KEY")
+#load_dotenv()
+OPENAI_API_KEY="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"
+OpenAI.api_key = OPENAI_API_KEY
 
 client = OpenAI()
 
