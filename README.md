@@ -26,6 +26,10 @@ dotenv: For loading environment variables from a .env file.
 You can run the application by executing main.py. Make sure to set up your environment with appropriate API keys for OpenAI and Streamlink.
 streamlit run app.py
 ![Alt Text](IMG1.png)
+![Alt Text](IMG2.png)
+![Alt Text](IMG3.png)
+
+
 # License
 This project is licensed under the MIT License.
 
