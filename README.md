@@ -1,5 +1,5 @@
 # Live Frame Analysis
-Insightly Live Video Analysis is a tool developed to analyze live video streams from YouTube. It extracts frames from the video, generates descriptions, provides frame-by-frame descriptions, and suggests categories for the video content. This tool leverages OpenAI's GPT-4 model and Google's Streamlink library for video stream processing.
+Live Frame Analysis is a tool developed to analyze live video streams from YouTube. It extracts frames from the video, generates descriptions, provides frame-by-frame descriptions, and suggests categories for the video content. This tool leverages OpenAI's GPT-4 model and Google's Streamlink library for video stream processing.
 
 # Features
 Frame Extraction: Extract frames from a YouTube video stream.
